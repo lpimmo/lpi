@@ -85,7 +85,7 @@ $('#mce-FURNISHED').selectize({
 					dropdownParent: 'body'
 				});
 
-var $name = $('#mce-WHERE'),selectize({
+var $name = $('#mce-WHERE').selectize({
     valueField: 'Id',
     labelField: 'Name',
     searchField: 'Name',
@@ -97,7 +97,7 @@ var $name = $('#mce-WHERE'),selectize({
     load: function(query, callback) {
         if (!query.length) return callback();
         $.ajax({
-            url: YOURURLHERE,
+            url: "https://raw.githubusercontent.com/lpimmo/lpi/master/places.json",
             type: 'GET',
             dataType: 'json',
             data: {
