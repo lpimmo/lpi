@@ -1,8 +1,8 @@
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.4/css/selectize.bootstrap3.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.4/js/selectize.min.js"></script>
-<style type="text/css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.4/js/standalone/selectize.min.js"></script><style type="text/css">
 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
@@ -23,27 +23,42 @@
 	<input type="text" value="" name="RENTMAX" class="required" id="mce-RENTMAX">
 </div>
 <div class="mc-field-group">
-	<label for="mce-NUMROOMS">Nombre Pièces  <span class="asterisk">*</span>
+	<label for="mce-NUMROOMS">Nombre De Pièces Minimum <span class="asterisk">*</span>
 </label>
-	<input type="text" value="" name="NUMROOMS" class="required" id="mce-NUMROOMS">
+	<select type="text" value="" name="NUMROOMS" class="required" id="mce-NUMROOMS">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+	</select>
 </div>
 <div class="mc-field-group">
 	<label for="mce-FURNISHED">Meublé  <span class="asterisk">*</span>
 </label>
 	<select type="text" value="" name="FURNISHED" class="required" id="mce-FURNISHED">
-		<option value="1">1</option>
-		<option value="2">2</option>
+		<option value="-1">n'importe</option>
+		<option value="1">oui</option>
+		<option value="0">non</option>
 	</select>
 </div>
 <div class="mc-field-group">
 	<label for="mce-FLOOR">Etage  <span class="asterisk">*</span>
 </label>
-	<input type="text" value="" name="FLOOR" class="required" id="mce-FLOOR">
+	<select type="text" value="" name="FLOOR" class="required" id="mce-FLOOR">
+		<option value="-1">peu importe</option>
+		<option value="groundFloor">rez-de-chaussée</option>
+		<option value="noGroundFloor">pas de rez-de-chaussée</option>
+	</select>
 </div>
 <div class="mc-field-group">
 	<label for="mce-TYPELISTIN">Annonces publiées par  <span class="asterisk">*</span>
 </label>
-	<input type="text" value="" name="TYPELISTIN" class="required" id="mce-TYPELISTIN">
+	<select type="text" value="" name="TYPELISTIN" class="required" id="mce-TYPELISTIN">
+		<option value="-1">peu importe</option>
+		<option value="pro">professionel</option>
+		<option value="individual">particulier</option>
+	</select>
 </div>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
@@ -69,6 +84,40 @@ $('#mce-FURNISHED').selectize({
 					},
 					dropdownParent: 'body'
 				});
+
+var $name = $('#mce-WHERE'),selectize({
+    valueField: 'Id',
+    labelField: 'Name',
+    searchField: 'Name',
+    options: [],
+    persist: false,
+    loadThrottle: 600,
+    create: false,
+    allowEmptyOption: true,
+    load: function(query, callback) {
+        if (!query.length) return callback();
+        $.ajax({
+            url: YOURURLHERE,
+            type: 'GET',
+            dataType: 'json',
+            data: {
+                name: query,
+                additionalDataIfRequired: 'Additional Data'
+            },
+            error: function() {
+                callback();
+            },
+            success: function(res) {
+                // you can apply any modification to data before passing it to selectize
+                callback(res);
+                // res is json response from server
+                // it contains array of objects. Each object has two properties. In this case 'id' and 'Name'
+                // if array is inside some other property of res like 'response' or something. than use this
+                //callback(res.response);
+            }
+        });
+    }
+})[0].selectize;
 
 </script>
 <!--End mc_embed_signup-->
