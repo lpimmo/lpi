@@ -109,15 +109,17 @@
       "municipality":"St-Germain-l'Auxerrois",
       "postcode":"75001"
    },
-      {
+   {
       "id":"Halles",
       "municipality":"Halles",
       "postcode":"75001"
-   },      {
+   },
+   {
       "id":"Palais-Royal",
       "municipality":"Palais-Royal",
       "postcode":"75001"
-   },      {
+   },
+   {
       "id":"Place-Vendôme",
       "municipality":"Place-Vendôme",
       "postcode":"75001"
@@ -217,161 +219,161 @@
       "municipality":"Saint-Germain-des-Prés",
       "postcode":"75006"
    },
-    {
+   {
       "id":"Saint-Thomas-d'Aquin",
       "municipality":"Saint-Thomas-d'Aquin",
       "postcode":"75007"
    },
-    {
+   {
       "id":"Invalides",
       "municipality":"Invalides",
       "postcode":"75007"
    },
-    {
+   {
       "id":"Ecole-Militaire",
       "municipality":"Ecole-Militaire",
       "postcode":"75007"
    },
-    {
+   {
       "id":"Gros-Caillou",
       "municipality":"Gros Caillou",
       "postcode":"75007"
    },
-    {
+   {
       "id":"Champs-Elysées",
       "municipality":"Champs-Elysées",
       "postcode":"75008"
    },
-    {
+   {
       "id":"Faubourg-du-Roule",
       "municipality":"Faubourg-du-Roule",
       "postcode":"75008"
    },
-    {
+   {
       "id":"Madeleine",
       "municipality":"Madeleine",
       "postcode":"75008"
    },
-    {
+   {
       "id":"Europe",
       "municipality":"Europe",
       "postcode":"75008"
    },
-    {
+   {
       "id":"Saint-Georges",
       "municipality":"Saint-Georges",
       "postcode":"75009"
    },
-    {
+   {
       "id":"Chaussée-d'Antin",
       "municipality":"Chaussée-d'Antin",
       "postcode":"75009"
    },
-    {
+   {
       "id":"Faubourg-Montmartre",
       "municipality":"Faubourg-Montmartre",
       "postcode":"75009"
    },
-    {
+   {
       "id":"Rochechouart",
       "municipality":"Rochechouart",
       "postcode":"75009"
    },
-    {
+   {
       "id":"Saint-Vincent-de-Paul",
       "municipality":"Saint-Vincent-de-Paul",
       "postcode":"75010"
    },
-    {
+   {
       "id":"Porte-Saint-Denis",
       "municipality":"Porte-Saint-Denis",
       "postcode":"75010"
    },
-    {
+   {
       "id":"Porte-Saint-Martin",
       "municipality":"Porte-Saint-Martin",
       "postcode":"75010"
    },
-    {
+   {
       "id":"Hôpital-Saint-Louis",
       "municipality":"Hôpital-Saint-Louis",
       "postcode":"75010"
    },
-    {
+   {
       "id":"Folie-Méricourt",
       "municipality":"Folie-Méricourt",
       "postcode":"75011"
    },
-    {
+   {
       "id":"Saint-Ambroise",
       "municipality":"Saint-Ambroise",
       "postcode":"75011"
    },
-    {
+   {
       "id":"Roquette",
       "municipality":"Roquette",
       "postcode":"75011"
    },
-    {
+   {
       "id":"Sainte-Marguerite",
       "municipality":"Sainte-Marguerite",
       "postcode":"75011"
    },
-    {
+   {
       "id":"Bel-Air",
       "municipality":"Bel-Air",
       "postcode":"75012"
    },
-    {
+   {
       "id":"Picpus",
       "municipality":"Picpus",
       "postcode":"75012"
    },
-    {
+   {
       "id":"Bercy",
       "municipality":"Bercy",
       "postcode":"75012"
    },
-    {
+   {
       "id":"Quinze-Vingts",
       "municipality":"Quinze-Vingts",
       "postcode":"75012"
    },
-    {
+   {
       "id":"Salpétrière",
       "municipality":"Salpétrière",
       "postcode":"75013"
    },
-    {
+   {
       "id":"Gare",
       "municipality":"Gare",
       "postcode":"75013"
    },
-    {
+   {
       "id":"Maison-Blanche",
       "municipality":"Maison-Blanche",
       "postcode":"75013"
    },
-    {
+   {
       "id":"Croulebarbe",
       "municipality":"Croulebarbe",
       "postcode":"75013"
    },
-    {
+   {
       "id":"Montparnasse",
       "municipality":"Montparnasse",
       "postcode":"75014"
    },
-    {
+   {
       "id":"Parc-de-Montsouris",
       "municipality":"Parc-de-Montsouris",
       "postcode":"75014"
    },
-    {
+   {
       "id":"Petit-Montrouge",
       "municipality":"Petit-Montrouge",
       "postcode":"75014"
-   },    
+   },
    {
       "id":"Plaisance",
       "municipality":"Plaisance",
@@ -496,8 +498,7 @@
       "id":"Charonne",
       "municipality":"Charonne",
       "postcode":"75020"
-   }
-][
+   },
    {
       "id":"75",
       "municipality":"paris",
