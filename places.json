@@ -1193,7 +1193,7 @@
       "id":"31200",
       "municipality":"31200",
       "postcode":"31200"
-   }
+   },
    {
       "id":"31300",
       "municipality":"31300",
@@ -1289,9 +1289,6 @@
       "municipality":"Reims",
       "postcode":"51100"
    },
-
-
-
    {
       "id":"92014",
       "municipality":"Nanterre",
