@@ -1006,73 +1006,58 @@
    },
    {
       "id":"69001",
-      "municipality":"69001",
+      "municipality":"Lyon 1er",
       "postcode":"69001"
    },
    {
       "id":"69002",
-      "municipality":"69002",
+      "municipality":"Lyon 2ème",
       "postcode":"69002"
    },
    {
       "id":"69003",
-      "municipality":"69003",
+      "municipality":"Lyon 3ème",
       "postcode":"69003"
    },
    {
       "id":"69004",
-      "municipality":"69004",
+      "municipality":"Lyon 4ème",
       "postcode":"69004"
    },
    {
       "id":"69005",
-      "municipality":"69005",
+      "municipality":"Lyon 5ème",
       "postcode":"69005"
    },
    {
       "id":"69006",
-      "municipality":"69006",
+      "municipality":"Lyon 6ème",
       "postcode":"69006"
    },
    {
       "id":"69007",
-      "municipality":"69007",
+      "municipality":"Lyon 7ème",
       "postcode":"69007"
    },
    {
       "id":"69008",
-      "municipality":"69008",
+      "municipality":"Lyon 8ème",
       "postcode":"69008"
    },
    {
       "id":"69009",
-      "municipality":"69009",
+      "municipality":"Lyon 9ème",
       "postcode":"69009"
    },
    {
       "id":"59",
       "municipality":"Lille",
       "postcode":"59"
-   },
-   {
-      "id":"59260",
-      "municipality":"59260",
-      "postcode":"59260"
-   },
-   {
-      "id":"59777",
-      "municipality":"59777",
-      "postcode":"59777"
-   },
+   },,
    {
       "id":"59800",
-      "municipality":"59800",
+      "municipality":"Lille",
       "postcode":"59800"
-   },
-   {
-      "id":"59160",
-      "municipality":"59160",
-      "postcode":"59160"
    },
    {
       "id":"33",
@@ -1080,19 +1065,24 @@
       "postcode":"33"
    },
    {
-      "id":"33800",
-      "municipality":"33800",
-      "postcode":"33800"
-   },
-   {
       "id":"33100",
-      "municipality":"33100",
+      "municipality":"Bordeaux",
       "postcode":"33100"
    },
    {
       "id":"33200",
-      "municipality":"33200",
+      "municipality":"Bordeaux",
       "postcode":"33200"
+   },
+   {
+      "id":"33300",
+      "municipality":"Bordeaux",
+      "postcode":"33300"
+   },
+   {
+      "id":"33800",
+      "municipality":"Bordeaux",
+      "postcode":"33800"
    },
    {
       "id":"13",
@@ -1101,82 +1091,82 @@
    },
    {
       "id":"13001",
-      "municipality":"13001",
+      "municipality":"Marseille 1er",
       "postcode":"13001"
    },
    {
       "id":"13002",
-      "municipality":"13002",
+      "municipality":"Marseille 2ème",
       "postcode":"13002"
    },
    {
       "id":"13003",
-      "municipality":"13003",
+      "municipality":"Marseille 3ème",
       "postcode":"13003"
    },
    {
       "id":"13004",
-      "municipality":"13004",
+      "municipality":"Marseille 4ème",
       "postcode":"13004"
    },
    {
       "id":"13005",
-      "municipality":"13005",
+      "municipality":"Marseille 5ème",
       "postcode":"13005"
    },
    {
       "id":"13006",
-      "municipality":"13006",
+      "municipality":"Marseille 6ème",
       "postcode":"13006"
    },
    {
       "id":"13007",
-      "municipality":"13007",
+      "municipality":"Marseille 7ème",
       "postcode":"13007"
    },
    {
       "id":"13008",
-      "municipality":"13008",
+      "municipality":"Marseille 8ème",
       "postcode":"13008"
    },
    {
       "id":"13009",
-      "municipality":"13009",
+      "municipality":"Marseille 9ème",
       "postcode":"13009"
    },
    {
       "id":"13010",
-      "municipality":"13010",
+      "municipality":"Marseille 10ème",
       "postcode":"13010"
    },
    {
       "id":"13011",
-      "municipality":"13011",
+      "municipality":"Marseille 11ème",
       "postcode":"13011"
    },
    {
       "id":"13012",
-      "municipality":"13012",
+      "municipality":"Marseille 12ème",
       "postcode":"13012"
    },
    {
       "id":"13013",
-      "municipality":"13013",
+      "municipality":"Marseille 13ème",
       "postcode":"13013"
    },
    {
       "id":"13014",
-      "municipality":"13014",
+      "municipality":"Marseille 14ème",
       "postcode":"13014"
    },
    {
       "id":"13015",
-      "municipality":"13015",
+      "municipality":"Marseille 15ème",
       "postcode":"13015"
    },
    {
       "id":"13016",
-      "municipality":"13016",
+      "municipality":"Marseille 16ème",
       "postcode":"13016"
    },
    {
@@ -1186,27 +1176,27 @@
    },
    {
       "id":"31100",
-      "municipality":"31100",
+      "municipality":"Toulouse",
       "postcode":"31100"
    },
    {
       "id":"31200",
-      "municipality":"31200",
+      "municipality":"Toulouse",
       "postcode":"31200"
    },
    {
       "id":"31300",
-      "municipality":"31300",
+      "municipality":"Toulouse",
       "postcode":"31300"
    },
    {
       "id":"31400",
-      "municipality":"31400",
+      "municipality":"Toulouse",
       "postcode":"31400"
    },
    {
       "id":"31500",
-      "municipality":"31500",
+      "municipality":"Toulouse",
       "postcode":"31500"
    },
    {
@@ -1216,17 +1206,17 @@
    },
    {
       "id":"06100",
-      "municipality":"06100",
+      "municipality":"Nice",
       "postcode":"06100"
    },
    {
       "id":"06200",
-      "municipality":"06200",
+      "municipality":"Nice",
       "postcode":"06200"
    },
    {
       "id":"06300",
-      "municipality":"06300",
+      "municipality":"Nice",
       "postcode":"06300"
    },
    {
@@ -1236,17 +1226,17 @@
    },
    {
       "id":"44100",
-      "municipality":"44100",
+      "municipality":"Nantes",
       "postcode":"44100"
    },
    {
       "id":"44200",
-      "municipality":"44200",
+      "municipality":"Nantes",
       "postcode":"44200"
    },
    {
       "id":"44300",
-      "municipality":"44300",
+      "municipality":"Nantes",
       "postcode":"44300"
    },
    {
@@ -1256,12 +1246,12 @@
    },
    {
       "id":"67100",
-      "municipality":"67100",
+      "municipality":"Strasbourg",
       "postcode":"67100"
    },
    {
       "id":"67200",
-      "municipality":"67200",
+      "municipality":"Strasbourg",
       "postcode":"67200"
    },
    {
@@ -1271,17 +1261,17 @@
    },
    {
       "id":"34070",
-      "municipality":"34070",
+      "municipality":"Montpellier",
       "postcode":"34070"
    },
    {
       "id":"34080",
-      "municipality":"34080",
+      "municipality":"Montpellier",
       "postcode":"34080"
    },
    {
       "id":"34090",
-      "municipality":"34090",
+      "municipality":"Montpellier",
       "postcode":"34090"
    },
    {
